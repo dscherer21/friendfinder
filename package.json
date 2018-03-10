@@ -1,0 +1,30 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "Asks a series of personality questions. Then it pairs you with a friend based on your answers.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dscherer21/friendfinder.git"
+  },
+  "keywords": [
+    "express",
+    "body-parser",
+    "path"
+  ],
+  "author": "dscherer21",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dscherer21/friendfinder/issues"
+  },
+  "homepage": "https://github.com/dscherer21/friendfinder#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "path": "^0.12.7"
+  }
+}
